@@ -1,245 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title> CSS Buttons</title>
+<link rel ="stylesheet" href ="style.css">
 </head>
 <body>
-    <header>
-        <!-- Intro settings -->
-        <style>
-          #intro {
-            /* Margin to fix overlapping fixed navbar */
-            margin-top: 58px;
-          }
-    
-          @media (max-width: 991px) {
-            #intro {
-              /* Margin to fix overlapping fixed navbar */
-              margin-top: 45px;
-            }
-          }
-        </style>
-    
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-          <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" target="_blank" href="https://www.google.com/search?q=beycan&sca_esv=e9d63d2b37743ed8&sca_upv=1&udm=2&sxsrf=ADLYWIIvdv_8Lx8tGfV8YvoUl3f91NR_rA%3A1720338249022&ei=SUeKZsCEAYHXseMP7JK9iAQ&oq=beycan&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmJleWNhbioCCAIyBBAjGCcyBBAjGCcyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB5IlCRQvARY5QxwAXgAkAEAmAGdAaABzgSqAQMxLjS4AQHIAQD4AQGYAgWgAo4FmAMAiAYBkgcDMC41oAfQFQ&sclient=gws-wiz-serp">
-              <img src="1.jfif" height="40" alt=""
-                loading="lazy" style="margin-top: -3px;" />
-            </a>
-            <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
-              aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#intro">Home</a>
-                </li>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                      <a class="nav-link" aria-current="page" href="#intro">Blog</a>
-                    </li>
-                
-              </ul>
-    
-              <ul class="navbar-nav d-flex flex-row">
-                <!-- Icons -->
-                <li class="nav-item me-3 me-lg-0">
-                  <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
-                    target="_blank">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                  <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                  <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                  <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- Navbar -->
-    
-        <!-- Jumbotron -->
-       
-        <!-- Jumbotron -->
-      </header>
-      <!--Main Navigation-->
-    
-      <!--Main layout-->
-      <main class="my-5">
-        <div class="container">
-          <!--Section: Content-->
-          <section class="text-center">
-            <h4 class="mb-5" style="margin-top: 100px;"><strong>Latest posts</strong></h4>
-    
-            <div class="row">
-              <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-            <div class="row">
-              <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/002.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/035.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!--Section: Content-->
-    
-          <!-- Pagination -->
-          <nav class="my-4" aria-label="...">
-            <ul class="pagination pagination-circle justify-content-center">
-              <li class="page-item">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item active" aria-current="page">
-                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </main>
-      <!--Main layout-->
-    
-      <!--Footer-->
-      <footer class="bg-light text-lg-start">
-        
-    
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2024 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">Beycan.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!--Footer-->
+<div class ="container">
+    <a href ="#"> Button1</a>
+    <a href ="#"> Button2</a>
+    <a href ="#"> Button3</a>
+    <a href ="#"> Button4</a>
+    <a href ="#"> Button5</a>
+    <a href ="#"> Button6</a>
+    <a href ="#"> Button7</a>
+    <a href ="#"> Button8</a>
+    <a href ="#"> Button9</a>
+    <a href ="#"> Button10</a>
+    <a href ="#"> Button11</a>
+    <a href ="#"> Button12</a>
+    <a href ="#"> Button13</a>
+    <button><span>Hover me!</span></button>
+    <a class="rainbow rainbow-1">Click Me!</a>
+    <!-- <button class="basic-button">Click Me!</button> -->
+</div>
 </body>
 </html>
