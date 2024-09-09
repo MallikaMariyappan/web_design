@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+}
+
+.scroll-table{
+    height: 500px;
+    width: 400px;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    
+}
+.scroll-table >.table{
+    width: 100%;
+}
+
+.table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 400px;
+}
+.table th{
+    background-color: rgb(231, 88, 112);
+    color: white;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+}
+.table tr{
+    scroll-snap-align: start;
+}
+.table th,.table  td{
+    padding: 20px 20px;
+    font-weight: normal;
+}
+.table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
